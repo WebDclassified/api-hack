@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017"; 
+const MONGODB_URI = "mongodb+srv://piyushanand:piyushanand404@cluster0.85zrmnk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const DB_NAME = "hackbyte-db";
 let db;
 
